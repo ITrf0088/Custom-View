@@ -8,6 +8,7 @@
 
     <org.rasulov.customviews.BottomButtonsView
         android:id="@+id/bottom_buttons"
+        style="@style/myBottomButtonsStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:bottomNegativeButtonText="Cancel"
@@ -16,7 +17,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
